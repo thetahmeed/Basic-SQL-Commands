@@ -161,3 +161,16 @@ SELECT id FROM table1
 UNION
 SELECT id FROM table2
 ```
+## 19 Alter
+```
+ALTER TABLE paystation
+ADD name varchar(255)
+```
+```
+ALTER TABLE paystation
+DROP COLUMN name;
+```
+```
+ALTER TABLE paystation
+MODIFY COLUMN Action varchar(255);
+```
