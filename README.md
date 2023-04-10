@@ -1,6 +1,16 @@
 # Basic-SQL-Commands
 // Basic SQL Commands
 
+## Create
+```
+CREATE TABLE `book` (`book_id` INT NOT NULL AUTO_INCREMENT , `book_name` VARCHAR(50) NOT NULL , `book_price` INT(5) NOT NULL , `book_writter` VARCHAR(50) NOT NULL , PRIMARY KEY (`book_id`))
+```
+
+## Insert
+```
+INSERT INTO `book` (`book_id`, `book_name`, `book_price`, `book_writter`) VALUES ('101', 'Bangla', '100', 'Sakib'), (NULL, 'English', '150', 'Tahmeed'), (NULL, 'Arabic', '200', 'Tamim')
+```
+
 ## 1 Select All
 ```
 SELECT *
